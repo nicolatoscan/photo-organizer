@@ -1,0 +1,83 @@
+{
+  "paths": {
+    "organize_source": "/mnt/f/0 Smistaggio/Source",
+    "organize_dest": "/mnt/f/0 Smistaggio/Dest",
+    "backup_main": "/mnt/f/1 Archive",
+    "backup_copy": "/mnt/e/Photos/1 Archive",
+    "digikam_db": "/path/to/digikam4.db",
+    "green_flagged_dest": "/path/to/green-flagged"
+  },
+  "organize": {
+    "default_description": "Unsorted",
+    "category_patterns": {
+      "Camera": "{category}/{year}/{date_folder}",
+      "Drone": "{category}/{year}/{date_folder}",
+      "Phone": "{category}/{year}/{month}",
+      "default": "{year}/{month}"
+    }
+  },
+  "extensions": {
+    "organize": [
+      "jpg",
+      "jpeg",
+      "png",
+      "tiff",
+      "tif",
+      "webp",
+      "heic",
+      "heif",
+      "nef",
+      "orf",
+      "rw2",
+      "cr2",
+      "cr3",
+      "arw",
+      "dng",
+      "mp4",
+      "mov",
+      "3gp",
+      "mts",
+      "m2ts",
+      "avi",
+      "mkv",
+      "wmv",
+      "flv",
+      "m4v",
+      "mpg",
+      "mpeg",
+      "xmp",
+      "xml"
+    ],
+    "find_missing_dates": [
+      "jpg",
+      "jpeg",
+      "png",
+      "gif",
+      "bmp",
+      "tiff",
+      "tif",
+      "webp",
+      "heic",
+      "heif",
+      "nef",
+      "orf",
+      "rw2",
+      "cr2",
+      "cr3",
+      "arw",
+      "dng",
+      "mp4",
+      "mov",
+      "3gp",
+      "mts",
+      "m2ts",
+      "avi",
+      "mkv",
+      "wmv",
+      "flv",
+      "m4v",
+      "mpg",
+      "mpeg"
+    ]
+  }
+}
